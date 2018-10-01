@@ -1,0 +1,99 @@
+address{ float:bottom ;color:white}
+*{box-sizing:border-box
+}
+*{text-align:center}
+h1{padding:10px ;font-family:impact;color:black ; text-decoration:underline;font-size:225%;}
+h2{ color:gray;font-family:impact;font-size:200%}
+p{;font-family:helvetica;color:black;font-size:125% }
+img{float:right }
+
+.icon{  background-color: DodgerBlue;
+    border: solid;
+    border-spacing:4px;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    float:right;
+    border-radius: 50%;
+    width:250px;
+    display:block;
+}
+#butvert{float:right;}
+ul,li{ text-align:left;
+    color:black ;
+    font-family:helvetica;
+    font-size:100%; }
+.imp{ color:white;
+    border:solid;border-spacing:4px; display:block; padding:12px 16px;font-size:14px;float:left;background-color:DodgerBlue;border-radius:45%; width:250px;}
+.iimp{float:center;font-family:helvetica;font-size:130%;color:navy;padding:12px;}
+.si {float:right;color:white;font-size:12px;font-family:helvetica;padding-bottom:2px;}
+*{ max-width: 100%; }
+
+#indb{background-color:#eee;
+}
+#indim{float:left;
+    width: 100%;
+    max-width: 400px;
+    height: auto;}
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+}
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+ul.breadcrumb li a {
+    color:#9fcdff;
+    text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration:underline;
+}
+#social{
+    overflow: auto;
+}
+
+.soc1 {
+    list-style-type: none;
+    float: left;
+}
+
+.soc1 a button {
+
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 25px;
+    text-align: center;
+    font-family: helvetica;
+}
+.fa-facebook {
+    background:#3b5998
+}
+.fa-linkedin {
+    background:#007bb6
+}
+.abcd{float:bottom;
+color:white}
+.glyphicon-envelope{background:#e83e8c}
+.glyphicon-phone{background: #6610f2}
+.map{float:right
+}
+#abmim {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+#indim1{width: 100%;
+max-width: 400px;
+height: auto;}
