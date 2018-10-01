@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head ><title> SHANIM MANZOOR </title>
+
+    <meta charset="utf-8">
+    <meta name="Author" content ="Shanim ">
+    <meta name=" Description" content= "Webpage">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Bootstrap -->
+</head>
+<body id="indb" >
+<script>
+    function js11() {
+        var ct = document.getElementById("js1");
+        ct.innerHTML = Date();
+
+    }
+</script>
+<link rel="stylesheet" href="css/main.css">
+<!-- Breadcrumbs is used throughout the website's 5 pages-->
+<ul class="breadcrumb">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="aboutme.html">About Me</a></li>
+    <li><a href="contactdetails.html">Contact Details</a></li>
+    <li><a href="resume.html">Resume</a></li>
+    <li><a href="photography.html">Photography</a></li>
+</ul>
+<!-- grid system is utilized as well as social and contact icons throughout on top left of page-->
+<div id="row">
+    <div class="col-lg-6">
+        <ul id="social" >
+            <li class="soc1"><a href="http://facebook.com/shanim.manzoor.9"><button class="fa fa-facebook"><strong>f</strong></button></a></li>
+            <li class="soc1"><a href="http://linkedin.com/in/shanimmanzoor"><button class="fa fa-linkedin"><strong>in</strong></button></a></li>
+            <li class="soc1"><a href="mailto:shm150@pitt.edu"><button type="button" class="glyphicon glyphicon-envelope"></button></a></li>
+            <li class="soc1"><a href="tel:412-251-4489"><button type="button" class="glyphicon glyphicon-phone"></button></a></li>
+        </ul>
+    </div>
+    <div class="row">
+        <!--Jumbotron is used to give the top of the page proper aesthetic of a title-->
+<div class="jumbotron">
+    <div class="container-fluid" style="background:transparent !important">
+        <h1>Shanim Manzoor</h1>
+        <div class="well">
+            <p><button onclick="js11()">TIME</button></p>
+        <p id="js1"> Former Project Engineer with two years of hands on experience in various fields including ELV System Design,Documentation,Technical Support,Procurement and administration.</p></div>
+        <div class="well"><p>  I am currently enrolled in the MSIS program at University of Pittsburgh.</p></div>
+        <div class="col-lg-3"; ><img src="img/photo.jpg" class="img-circle" alt="shanim photo" id="indim"></div>
+
+<!-- navigation using vertical button menu is used as well as styled using butvert in the main css file-->
+<div class="col-12">
+<div class="btn-group-vertical" id="butvert" >
+    <nav><a href="https://www.pitt.edu/~shm150" onclick="doSomething(); return false;"><button class="icon" >home</button></a></nav>
+    <nav><a href="aboutme.html" onclick="doSomething(); return false;"><button class="icon">About Me</button></a></nav>
+    <nav><a href="contactdetails.html" onclick="doSomething(); return false;"><button class="icon">Contact Details</button></a></nav>
+    <!https://stackoverflow.com/questions/8809909/change-cursor-to-finger-pointer>
+    <nav><a href="resume.html" onclick="doSomething(); return false;"><button class="icon">Resume</button></a></nav>
+    <nav><a href="https://www.pitt.edu/~shm150/photography.html" onclick="doSomething(); return false;"><button class="icon" >Photography</button></a></nav>
+</div>
+</div>
+</div>
+</div>
+    </div>
+</div>
+</body>
+</html>
